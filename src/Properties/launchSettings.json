@@ -20,7 +20,10 @@
       "commandName": "IISExpress",
       "launchBrowser": true,
       "environmentVariables": {
-        "ASPNETCORE_ENVIRONMENT": "Development"
+        "ASPNETCORE_ENVIRONMENT": "Development",
+        "AWS_ACCESS_KEY_ID": "your-access-key-1",
+        "AWS_SECRET_ACCESS_KEY": "your-secret-key-1",
+        "AWS_REGION": "us-east-1"
       }
     }
   },
